@@ -11,6 +11,10 @@ In python, we can perform logic utilizing `if`, `elif`, `else` statements to che
 ```python
 if 5 > 2:
     print('Yay')
+elif 5 > 3:
+    print('Ohhh')
+else:
+    print('Whoops')
 ```
 
 Notice the syntax, in Python we use the `:` symbol to indicate the end of our condition. The code after is indented to declare a `block` or `scope`.
