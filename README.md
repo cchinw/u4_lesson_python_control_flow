@@ -6,7 +6,7 @@ We'll be learning and implementing python control flow, and proper `indententati
 
 ## If/Else/ElIf
 
-In python, we can perform logic utilizing `if`, `elif`, `else` statements to check for a condition. Each statement is a `block`, and each block must be indented correctly or our code will fail to run. Common indentation in python is typically 1 tab or 2 spaces, here's an example:
+In python, we can perform logic utilizing `if`, `elif`, and `else` statements to check a condition. Each statement creates a `block`, and each block must be indented correctly or our code will fail to run. Whatever is decalared inside of this block is only accessible within that `scope`. Common indentation in python is typically 1 tab or 2 spaces, here's an example:
 
 ```python
 if 5 > 2:
