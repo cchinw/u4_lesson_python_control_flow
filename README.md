@@ -6,7 +6,7 @@ We'll be learning and implementing python control flow, and proper `indententati
 
 ## If/Else/ElIf
 
-In python, we can perform logic utilizing `if`, `elif`, `else` statements to check for a condition. Each statement is a `block`, and each block must be indented correctly or our code will fail to run. Common indentation in python is typically 1 tab or 2 spaces, heres an example:
+In python, we can perform logic utilizing `if`, `elif`, `else` statements to check for a condition. Each statement is a `block`, and each block must be indented correctly or our code will fail to run. Common indentation in python is typically 1 tab or 2 spaces, here's an example:
 
 ```python
 if 5 > 2:
@@ -29,17 +29,57 @@ As you can see they're quite similar, but syntactically different.
 
 Python also has comparison operators such as `<` and `>`. Here's a list of python's comparison and logical operators with their js counterparts:
 
-| Javascript | Python | Operation             |
-| ---------- | ------ | --------------------- | --- | ---------- |
-| !==        | !=     | Not Equal             |
-| ===        | ==     | Equals                |
-| >          | >      | Greater Than          |
-| <          | <      | Greater Than          |
-| >=         | >=     | Greater Than Or Equal |
-| <=         | <=     | Less Than Or Equal    |
-| !          | not    | Logical Not           |
-| &&         | and    | Logical And           |
-| `          |        | `                     | or  | Logical Or |
+<table>
+    <tr>
+        <th>Javascript</th>
+        <th>Python</th>
+        <th>Operation</th>
+    </tr>
+    <tr>
+        <td>!==</td>
+        <td>!=</td>
+        <td>Not Equal</td>
+    </tr>
+    <tr>
+        <td>===</td>
+        <td>==</td>
+        <td>Equals</td>
+    </tr>
+    <tr>
+        <td>></td>
+        <td>></td>
+        <td>Greater Than</td>
+    </tr>
+    <tr>
+        <td><</td>
+        <td><</td>
+        <td>Less Than</td>
+    </tr>
+    <tr>
+        <td>>=</td>
+        <td>>=</td>
+        <td>Greater Than Or Equal</td>
+    <tr>
+        <td><=</td>
+        <td><=</td>
+        <td>Less Than Or Equal</td>
+    </tr>
+    <tr>
+        <td>!</td>
+        <td>not</td>
+        <td>Logical Not</td>
+    </tr>
+    <tr>
+        <td>&&</td>
+        <td>and</td>
+        <td>Logical And</td>
+    </tr>
+    <tr>
+        <td>||</td>
+        <td>or</td>
+        <td>Logical Or</td>
+    </tr>
+</table>
 
 Utilizing the above table, work in the `check_gpa` function in `main.py` and follow the instructions.
 
