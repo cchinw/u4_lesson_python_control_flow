@@ -6,6 +6,9 @@
 
 In this lesson, we'll be learning and implementing python control flow, and proper `indententation`.
 
+## Getting Started
+- `Fork` and `clone` this repository
+
 ## If/Else/ElIf
 
 In python, we can perform logic utilizing `if`, `elif`, and `else` statements to check a condition. Each statement creates a `block`, and each block must be indented correctly or our code will fail to run. Whatever is decalared inside of this block is only accessible within that `scope`. Common indentation in python is typically 1 tab or 2 spaces, here's an example:
@@ -31,7 +34,7 @@ Here's a comparison between javascript if's and python if's:
 
 As you can see they're quite similar, but syntactically different.
 
-## `And`'s `Not`'s and Everything Else
+## `and`'s `not`'s and Everything Else
 
 Python also has comparison operators such as `<` and `>`. Here's a list of python's comparison and logical operators with their js counterparts:
 
@@ -91,11 +94,13 @@ Python also has comparison operators such as `<` and `>`. Here's a list of pytho
 Just like with JavaScript, python also has an option for creating ternary statements. Ternaries can be useful if you'd like a more concise method for writing conditional statements that only have 2 possible outputs for a certain expression.
 
 With JavaScript, our ternary statements look like this:
+
 ```js
 (someExpression) ? case1 : case2;
 ```
 
 In python, ternaries are somewhat more legible. They are written by putting our cases to be output on both sides of an expression wrapped in an if/else. Example:
+
 ```py
 value_if_true if some_expression else value_if_false
 # The left side executes if the expression evaluates to True
