@@ -4,7 +4,7 @@
 
 ## Overview
 
-In this lesson, we'll be learning and implementing python control flow, and proper `indententation`.
+In this lesson, we'll be learning and implementing python control flow, and proper `indentation`.
 
 ## Getting Started
 - `Fork` and `clone` this repository
